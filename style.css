@@ -5,5 +5,15 @@
  Author:         Sunjay Armstead
  Author URI:     https://github.com/sarmstead/
  Template:       Divi
- Version:        Version: 0.1.0
+ Version:        Version: 0.1.1
 */
+
+/* Style inline code */
+code:not(.wp-block-code code) {
+	font-family: Hack, 'Fira Code', Consolas, Menlo, Monaco, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Courier New', Courier, monospace;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #efefef;
+	color: #565faa;
+	padding: 2px 7px;
+}
